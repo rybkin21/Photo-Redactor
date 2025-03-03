@@ -1,0 +1,6 @@
+framework module Pods_Photo_Redactor {
+  umbrella header "Pods-Photo Redactor-umbrella.h"
+
+  export *
+  module * { export * }
+}

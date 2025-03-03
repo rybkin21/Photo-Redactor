@@ -11,7 +11,7 @@ import SwiftUI
 struct Photo_RedactorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainContentView()
         }
     }
 }
