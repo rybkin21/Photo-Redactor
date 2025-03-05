@@ -6,9 +6,6 @@
 //
 
 import SwiftUI
-import FirebaseAuth
-import GoogleSignIn
-import Firebase
 
 struct LoginScreen: View {
 
@@ -133,6 +130,6 @@ struct LoginScreen: View {
 
 }
 
-#Preview {
-    LoginScreen(model: ModelData())
-}
+//#Preview {
+//    LoginScreen(model: ModelData())
+//}

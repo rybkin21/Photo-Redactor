@@ -1,13 +1,15 @@
 //
-//  RedactorScreen.swift
+//  DrawingScreen.swift
 //  Photo Redactor
 //
-//  Created by Ivan Rybkin on 04.03.2025.
+//  Created by Ivan Rybkin on 05.03.2025.
 //
 
 import SwiftUI
 
-struct RedactorScreen: View {
+struct DrawingScreen: View {
+    @EnvironmentObject var model: DrawingViewModel
+    
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
