@@ -17,16 +17,7 @@ struct ContentView: View {
 
         ZStack {
             if status {
-
-                VStack(spacing: 25) {
-
-                    Text("Logged In As \(Auth.auth().currentUser?.email ?? "")")
-
-                    Button(action: model.logOut, label: {
-                        Text("LogOut")
-                            .fontWeight(.bold)
-                    })
-                }
+                RedactorScreen()
             }
             else {
                 LoginScreen(model: model)
