@@ -15,10 +15,12 @@ class DrawingViewModel: ObservableObject {
     @Published var sourceType: UIImagePickerController.SourceType = .photoLibrary
 
     @Published var canvas = PKCanvasView()
+    @Published var toolPicker = PKToolPicker()
 
     //cancel func
     func cancelImageEditing() {
         imageData = Data(count: 0)
+        canvas = PKCanvasView()
     }
 }
 
